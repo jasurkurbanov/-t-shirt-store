@@ -5,8 +5,8 @@
 ### Sprint 1: 28.06 - 05.07
 #### Tasks For Frontend Team For Sprint 1:
 - [x] Import Images
-- [ ] Import Fonts
-- [ ] Routing
+- [x] Import Fonts
+- [x] Routing
 - [ ] Home Page (UI)
     - [ ] Header
     - [ ] Footer
