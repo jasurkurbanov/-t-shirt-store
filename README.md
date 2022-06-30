@@ -4,7 +4,7 @@
 ### Project Tracking: [MeisterTask](https://www.meistertask.com/app/project/cADD4NYQ/t-shirt-store)
 ### Sprint 1: 28.06 - 05.07
 #### Tasks For Frontend Team For Sprint 1:
-- [ ] Import Images
+- [x] Import Images
 - [ ] Import Fonts
 - [ ] Routing
 - [ ] Home Page (UI)
