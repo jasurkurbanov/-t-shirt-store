@@ -27,7 +27,7 @@ function Home() {
             <img className="banner__img2" src={bannerimg2} alt="" />
             <h3>Shirt</h3>
           </div>
-          <img className="banner__img3" src={bannerimg3} alt="" />
+          <img className="ba__img3" src={bannerimg3} alt="" />
         </div>
       </div>
     </div>
