@@ -22,12 +22,12 @@ function Home() {
         <div className="item__right">
           <div className="img__block1">
             <h1>More list</h1>
-            <img className="b__img1" src={bannerimg1} alt="" />
+            <img className="banner__img1" src={bannerimg1} alt="" />
             <h2>Suit</h2>
-            <img className="b__img2" src={bannerimg2} alt="" />
+            <img className="banner__img2" src={bannerimg2} alt="" />
             <h3>Shirt</h3>
           </div>
-          <img className="b__img3" src={bannerimg3} alt="" />
+          <img className="banner__img3" src={bannerimg3} alt="" />
         </div>
       </div>
     </div>

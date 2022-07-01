@@ -23,23 +23,23 @@
   padding-top: 30px;
 }
 
-.b__img3 {
+.banner__img3 {
   position: absolute;
   width: 400px;
   margin: 30px 0px 0px 60px;
 }
 
-.b__img2 {
+.banner__img2 {
   margin-left: 10px;
   margin-top: 15px;
   position: relative;
 }
 
-.b__img1 {
+.banner__img1 {
   position: relative;
 }
 .banner__title {
-  color: #ffffff;
+  colors: #ffffff;
   font-size: 20px;
   font-weight: 700;
   text-align: left;
