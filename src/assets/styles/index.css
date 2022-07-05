@@ -1,5 +1,171 @@
 @import "./fonts.css";
 
 body {
-  font-family: "Roboto", "Mada", "Poppins", sans-serif;
+  font-family: "Poppins", "Mada", "Roboto", sans-serif;
+  margin: 0;
+}
+
+.header {
+  height: 80px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  font-family: "Mada";
+  font-size: 20px;
+}
+
+.logo_text {
+  padding-left: 9px;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  list-style-type: none;
+  font-weight: 400;
+  font-family: "Mada";
+  font-size: 20px;
+  color: #0d1222;
+}
+li {
+  padding-right: 40px;
+}
+
+.search_bar {
+  height: 48px;
+  border: 1.5px solid rgb(125, 125, 125);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.search_bar input {
+  font-family: "Mada";
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+}
+
+/* Footer */
+
+footer {
+  height: 390px;
+  background-color: #393e46;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.footer_logo {
+  background: #393e46;
+  max-width: 438px;
+}
+.logo_content {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.footer_logo_text {
+  color: white;
+  padding-left: 9px;
+  font-size: 14px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.footer_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f4f4f4;
+  white-space: pre-line;
+}
+
+.footer_navbar {
+  max-width: 649px;
+}
+
+.footer_menu li {
+  padding-right: 103px;
+}
+
+.footer_button {
+  font-weight: 700;
+  font-size: 18px;
+  width: 180px;
+  height: 48px;
+  margin-top: 40px;
+  color: #ab40ff;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.footer_button:hover {
+  cursor: pointer;
+}
+
+.footer_scontent {
+  display: flex;
+  padding-top: 60px;
+}
+.footer_scontent p {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  padding-right: 80px;
+}
+.footer_scontent h1 {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facebook {
+  border: 1px solid white;
+  height: 25px;
+  width: 25px;
+}
+
+.twitter {
+  border: 1px solid white;
+  height: 25px;
+  width: 25px;
+}
+.linkedin {
+  border: 1px solid white;
+  height: 25px;
+  width: 25px;
+}
+.instagram {
+  border: 1px solid white;
+  height: 25px;
+  width: 25px;
 }
