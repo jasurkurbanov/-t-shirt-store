@@ -39,7 +39,7 @@
   position: relative;
 }
 .banner__title {
-  colors: #ffffff;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 700;
   text-align: left;
