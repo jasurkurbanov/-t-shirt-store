@@ -8,10 +8,10 @@
 - [x] Import Fonts
 - [x] Routing
 - [ ] Home Page (UI)
-    - [ ] Header
-    - [ ] Footer
-    - [ ] Banner
-    - [ ] Categories
+    - [x] Header
+    - [x] Footer
+    - [x] Banner
+    - [x] Categories
     - [ ] Best Product
     - [ ] Product Preview
     - [ ] Testimonials
@@ -19,3 +19,5 @@
     - [ ] Header
     - [ ] Filter
     - [ ] Recommendation
+### Summary of first Sprint
+
