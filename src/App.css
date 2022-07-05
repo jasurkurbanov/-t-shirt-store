@@ -146,3 +146,48 @@
   color: #ffffff;
   background: #5463ff;
 }
+
+/* // Testimonials */
+
+.testimonials__home {
+}
+
+.testimonials__header {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  flex-direction: column;
+}
+
+.testimonials__card {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.grid__item {
+  cursor: pointer;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 1);
+  width: 588px;
+  height: 268px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: gold;
+}
+.off {
+  color: #ccc;
+}
+.button of on {
+  padding-left: 40px;
+}

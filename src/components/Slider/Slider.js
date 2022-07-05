@@ -32,10 +32,7 @@ export default function Slider() {
               slideIndex === index + 1 ? "slide active__anim" : "slide"
             }
           >
-            <img
-              src={process.env.PUBLIC_URL + `/imgs/img${index + 1}.png`}
-              alt="/"
-            />
+            <img src={`/imgs/img${index + 1}.png`} alt="/" />
           </div>
         );
       })}

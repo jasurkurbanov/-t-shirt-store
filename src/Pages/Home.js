@@ -3,6 +3,9 @@ import bannerimg1 from "../assets/images/home/home-banner/banner-img-1.png";
 import bannerimg2 from "../assets/images/home/home-banner/banner-img-2.png";
 import bannerimg3 from "../assets/images/home/home-banner/banner-img-3.png";
 import Slider from "../components/Slider/Slider";
+import card1 from "../assets/images/testimonials/card1.png";
+import card2 from "../assets/images/testimonials/card2.png";
+import StarRating from "../components/StarRaiting";
 
 function Home() {
   return (
@@ -49,6 +52,29 @@ function Home() {
             <button className="categories__btn__item">T-shirt</button>
           </div>
           <Slider />
+        </div>
+      </div>
+      <div className="testimonials__home wrapper">
+        <div className="testimonials__header">
+          <h1>Testimonials</h1>
+        </div>
+        <div className="testimonials__card wrapper">
+          <div className="grid__item">
+            <img src={card1} alt="" />
+            <h4>Friskidia</h4>
+            <p>client</p>
+            <StarRating />
+            <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing “ </p>
+            <p>elit. Donec rutrum dapibus luctus.</p>
+          </div>
+          <div className="grid__item">
+            <img src={card2} alt="" />
+            <p>Finkidia</p>
+            <p>client</p>
+            <StarRating />
+            <p>“ Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+            <p>elit. Donec rutrum dapibus luctus. “ </p>
+          </div>
         </div>
       </div>
     </div>
