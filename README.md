@@ -24,5 +24,4 @@
     - [ ] Filter
     - [ ] Recommendation
 ### WEEK ONE SUMMARY:
-
-
+In this sprint Mirjalol was productive. Umar was less productive that's why he spent much time only doing Header. In next sprint I allocated much more high priority tasks for Umar in order to speed up his sense of urgency while doing project.
