@@ -8,6 +8,7 @@ import { TiSocialFacebook } from "react-icons/ti";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { IoLogoInstagram } from "react-icons/io";
 import { TiSocialLinkedin } from "react-icons/ti";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -15,16 +16,26 @@ function Home() {
       <div className="header">
         <div className="header_content">
           <div className="logo">
-            <img src={Logo} />
+            <Link to="/">
+              <img src={Logo} />
+            </Link>
 
             <p className="logo_text">mangcoding Store</p>
           </div>
           <div className="navbar">
             <ul>
-              <li>Home</li>
-              <li>Shop</li>
-              <li>About us</li>
-              <li>Contact</li>
+              <li>
+                <Link to="/"> Home </Link>
+              </li>
+              <li>
+                <Link to="/about"> About </Link>
+              </li>
+              <li>
+                <Link to="/shop"> Shop</Link>
+              </li>
+              <li>
+                <Link to="/contact"> Contact</Link>
+              </li>
               <li>
                 <BsHandbag />
               </li>
