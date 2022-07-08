@@ -1,44 +1,218 @@
-Skip
-  to
-  content
-  Pull
-  requests
-  Issues
-  Marketplace
-  Explore
-  MirgalolUrakov
-  machadop1407
-  /
-  react-router-v6
-  Public
-  Code
-  Issues
-  Pull
-  requests
-  Actions
-  Projects
-  Wiki
-  Security
-  Insights
-  react-router-v6/src/App.css
-  machadop1407
-  machadop1407
-  first
-  commit
-  Latest
-  commit
-  on
-  .App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner {
+  height: 700px;
+  background: linear-gradient(180deg, #7d89ff 0%, #ab40ff 66.67%);
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.img__block {
+  float: left;
+  width: 50%;
+  padding-top: 45px;
+  padding-left: 40px;
+}
+
+.img__block h1 {
+  padding-top: 30px;
+}
+
+.banner__img3 {
+  position: absolute;
+  padding: 70px 0px 0px 98px;
+}
+
+.banner__img2 {
+  padding-left: 10px;
+  padding-top: 15px;
+  position: relative;
+}
+
+.banner__img1 {
+  margin-top: 24px;
+}
+.banner__title {
+  font-family: "Mada";
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 10px;
+  line-height: 90px;
+}
+
+.banner__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #dddddd;
+  padding-top: 25px;
+}
+
+/* .banner__button {
+  margin-top: 10px;
+  width: 180px;
+  height: 48px;
+} */
+.button__item {
+  height: 48px;
+  width: 180px;
+  color: #ab40ff;
+  background-color: white;
+  margin-top: 50px;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.img__block h1 {
+  padding-left: 45px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.img__block h2 {
+  position: absolute;
+  top: 430px;
+  padding-left: 16px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.img__block h3 {
+  position: absolute;
+  top: 675px;
+  padding-left: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* Banner_logos */
+
+.wrapper__logos {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: #f4f4f4;
+}
+
+.banner__logos {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.banner__logos img {
+  padding-right: 50px;
+}
+
+/* Categories */
+
+.home__categories {
+  display: flex;
+  padding-top: 100px;
+}
+
+.choose__text {
+  color: #5463ff;
+  font-size: 18px;
+}
+/* .categories__text {
+  
+} */
+
+.categories__text h1 {
+  font-family: "Mada";
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 700;
+  padding-bottom: 24px;
+  padding-top: 16px;
+}
+
+.categories__text p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #646464;
+  line-height: 30px;
+}
+
+.categories__block__right {
+  padding-left: 200px;
+  position: relative;
+}
+.categories__btn {
+  padding: 29px 132px 0px 122px;
+}
+.categories__btn__item {
+  height: 42px;
+  width: 195px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  color: #ffffff;
+  background: #5463ff;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+
+/* // Testimonials */
+
+.testimonials__header {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  flex-direction: column;
+}
+
+.testimonials__card {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.grid__item {
+  cursor: pointer;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+  width: 588px;
+  height: 268px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: gold;
+}
+.off {
+  color: #ccc;
+}
+.button of on {
+  padding-left: 40px;
 }
